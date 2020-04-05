@@ -1,15 +1,33 @@
+git init 
+	inicia o vercionamento
+git add 
+	adiciona ou modifica alteração no ramo do grafo
+git commit
+	adiciona os dados no ramo do grafo
+git log --oneline
+	mostra os nos no ramo do grafo
+git status 
+	mostra os nos atuais no ramo do grafo
 git branch
 	mostra o ramo atual que o projeto encontra-se
+git branch -D nome_da_branch
+	remove a branch
 git checkout -b novo_ramo
 	cria um novo ramo no grafo
-git log --oneline
-	mostra o projeto com seus dados
+
 git checkout nome_do_branch
-	vai para o branch escolhiudo
+	vai para o branch escolhido
 git checkout "nome do branch"
 	retorn para o estado atual ou mais recente do arquivo
 git diff
 	mostra as mudanças que foram feitas no projeto
 "Em vermelho é o que foi removido, em verde o que foi acresetado"
+
 git resert --hard id 
 	volta para verção do id
+git merge nome_do_branch
+	vai junta a nome_do_branch com branch master
+git show id
+	inspeciona um commit 
+git show
+	mostra a ultimo commint

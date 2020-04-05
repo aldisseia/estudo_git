@@ -4,8 +4,8 @@ git checkout -b novo_ramo
 	cria um novo ramo no grafo
 git log --oneline
 	mostra o projeto com seus dados
-git checkout id
-	volta para a verção anterios do ID
+git checkout nome_do_branch
+	vai para o branch escolhiudo
 git checkout "nome do branch"
 	retorn para o estado atual ou mais recente do arquivo
 git diff

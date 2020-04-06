@@ -21,7 +21,7 @@ git checkout "nome do branch"
 	retorn para o estado atual ou mais recente do arquivo
 git diff
 	mostra as mudanças que foram feitas no projeto
-"Em vermelho é o que foi removido, em verde o que foi acresetado"
+	"Em vermelho é o que foi removido, em verde o que foi 	acresetado"
 
 git resert --hard id 
 	volta para verção do id
@@ -31,3 +31,21 @@ git show id
 	inspeciona um commit 
 git show
 	mostra a ultimo commint
+git add origin url
+	define o repositorio no github para fazer "pull"
+git push -u origen
+	a primeira vez para add no repositorios
+git push 
+	quando já usou o git push -u
+git pull
+	Atualizar os arquivos no branch atual de acordo com o 	do repositorio online
+
+
+
+
+
+
+
+
+
+
